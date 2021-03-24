@@ -1,0 +1,116 @@
+@font-face {
+    font-family:'Montserrat-Light';
+    src: url('font/Montserrat/Montserrat-Black.ttf');
+
+}
+
+body {
+    width: 95%;
+    height: auto;
+    background-color: #FF9500;
+    padding: 0 20px 20px 20px;
+    border: 3px solid black;
+}
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 200px;
+    height: 100px;
+    border: 2px solid; 
+    flex:1 10%;
+}
+
+.header {
+    margin-top: 5px;
+    margin-left: 5px;
+    width:87%;
+    height: 100px;
+    border: 2px solid white; 
+}
+
+.panel > div {
+    margin-top: 5px;
+    margin-left: 5px;
+    min-width: 218px;
+    max-width: 218px;
+    height: 75px;
+    border: 2px solid; 
+     /**/
+     text-align: center;
+     font-size: 20px;
+     font-family: 'Montserrat-Black';
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 70%;
+    border: 2px solid; 
+    
+}
+
+.menu > div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    width: 30%;
+    height: 250px;
+    border: 2px solid; 
+    /**/
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat-Black';
+}
+
+
+.shoplist {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    flex-shrink: initial;
+    margin-top: 5px;
+    margin-left: 5px;
+    
+
+}
+.shoplist >div {
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 4vw; 
+    width: 14.9vw;
+    border: 2px solid; 
+    /*     */
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat-Black';
+}
+
+/* .sumary {
+    margin: auto;
+    margin-bottom: 5px;
+    width: 70%;
+    border: 3px solid;
+    padding: 10px;
+} */
+
+.footer {
+
+    flex: 90%;
+    height: 40px;
+    border: 2px solid;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat-Black';
+}
